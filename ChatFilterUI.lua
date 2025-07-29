@@ -244,6 +244,7 @@ end
 function ChatFilterUI:Initialize()
     self.mainFrame = create_main_frame()
     
+    print("hh")
     -- Create minimap button
     self.minimapButton = create_minimap_button()
     
