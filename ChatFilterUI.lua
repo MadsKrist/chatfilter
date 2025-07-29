@@ -310,5 +310,5 @@ function ChatFilterUI:Hide()
     end
 end
 
--- Make globally accessible
-_G["ChatFilterUI"] = ChatFilterUI
+-- Make globally accessible (WoW Classic 1.12 compatible)
+ChatFilterUI = ChatFilterUI
