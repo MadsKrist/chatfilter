@@ -244,7 +244,6 @@ end
 function ChatFilterUI:Initialize()
     self.mainFrame = create_main_frame()
     
-    print("hh")
     -- Create minimap button
     self.minimapButton = create_minimap_button()
     
@@ -312,4 +311,5 @@ function ChatFilterUI:Hide()
 end
 
 -- Make globally accessible (WoW Classic 1.12 compatible)
+print("ChatFilterUI initialized. Use /chatfilter to open the configuration.")
 ChatFilterUI = ChatFilterUI
