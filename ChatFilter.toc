@@ -1,0 +1,9 @@
+## Interface: 11200
+## Title: ChatFilter
+## Notes: Filters chat messages based on regex-like patterns
+## Author: YourName
+## Version: 1.0
+## SavedVariables: ChatFilterDB
+
+ChatFilterCore.lua
+ChatFilterUI.lua
