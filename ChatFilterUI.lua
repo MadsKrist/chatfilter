@@ -310,6 +310,21 @@ function ChatFilterUI:Hide()
     end
 end
 
+
+DEFAULT_CHAT_FRAME:AddMessage("Your message here")
+
+-- Method 2: Create your own print function
+local function print(...)
+    local msg = ""
+    for i = 1, arg.n do
+        if i > 1 then msg = msg .. "\t" end
+        msg = msg .. tostring(arg[i])
+    end
+    DEFAULT_CHAT_FRAME:AddMessage(msg)
+end
+
+-- Now you can use print() normally
+print("Hello", "World", 123)
 -- Make globally accessible (WoW Classic 1.12 compatible)
 print("ChatFilterUI initialized. Use /chatfilter to open the configuration.")
 ChatFilterUI = ChatFilterUI
