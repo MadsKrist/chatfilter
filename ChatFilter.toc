@@ -2,7 +2,7 @@
 ## Title: ChatFilter
 ## Notes: Filters chat messages based on regex-like patterns
 ## Author: YourName
-## Version: 1.0.1
+## Version: 1.0.2
 ## SavedVariables: ChatFilterDB
 
 ChatFilterCore.lua
